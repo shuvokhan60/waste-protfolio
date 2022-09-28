@@ -48,3 +48,39 @@ section {
 .padding {
     padding-right: 8%;
 }
+
+.flex {
+    display: flex;
+}
+
+.khan {
+    display: block;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.expo {
+    box-shadow: 10px 10px 40px red;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+#shuvoid {
+    border-image: linear-gradient(black, red);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+#aliid {
+    border-image: linear-gradient(red, black);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+footer p {
+    text-align: center;
+}
